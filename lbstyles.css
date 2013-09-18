@@ -1,0 +1,579 @@
+
+/* 
+orange - #ff6633 
+cream - #ffffcc 
+*/
+
+@font-face
+{
+	font-family: bevan;
+	src: url('/fonts/bevan.ttf');
+}
+
+@font-face
+{
+	font-family: dinpro;georgia, serif
+	src: url('DINPro-Regular.otf');
+}
+
+html, html a {
+    h4 {
+    	-webkit-font-smoothing: antialiased;
+	}	
+}
+
+
+body {
+
+	margin:0;
+	padding:0;
+	background-image:url("images/bwlogoback.gif");
+	background-color: #eeeeee;
+	font-family:arial;
+	
+}
+
+fieldset {
+
+	position:relative;
+	top:5px;
+	margin-top:1em;	
+	font-family: arial;
+	font-size:10pt;
+	margin-right:auto;
+	background-color: clear;
+	color:#000000;
+	border: 6px solid #ff6633;
+
+	padding-left:20px;	
+	padding-right:20px;
+	-moz-border-radius:10px;  
+	border-radius: 10px;  
+	-webkit-border-radius: 20px;
+		
+}
+
+.fieldset {
+
+	position:relative;
+	top:5px;
+	margin-top:30px;	
+	font-family: arial;
+	font-size:10pt;
+	margin-right:auto;
+	background-color: clear;
+	color:#000000;
+	border: 6px solid #ff6633;
+
+	padding-left:20px;	
+	padding-right:20px;
+	-moz-border-radius:10px;  
+	border-radius: 10px;  
+	-webkit-border-radius: 20px;
+		
+}		
+
+
+legend {
+
+	margin-left:0.2em;
+	position:relative;
+	top:-20px;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 18pt;
+	background-color: #ff6633;
+	border-top: 3px solid #ff6633;
+	border-bottom: 3px solid #ff6633;
+	border-left: 15px solid #ff6633;
+	border-right: 15px solid #ff6633;
+	border-radius:10px;
+		
+}
+
+.legend {
+	position:relative;
+	width:auto;
+	float:left;
+	top:-20px;
+	color: #ffffff;
+	font-family: arial;
+	font-size: 18pt;
+	background-color: #ff6633;
+	border-top: 3px solid #ff6633;
+	border-bottom: 3px solid #ff6633;
+	border-left: 15px solid #ff6633;
+	border-right: 15px solid #ff6633;
+	border-radius:10px;
+		
+}
+
+img {
+	border:0;
+}
+
+a {
+	color:black;
+	text-decoration:none;
+
+}
+
+a:hover {
+  font-size:12pt;
+}
+
+.navbar {
+
+	text-align;left;
+	display:inline;
+	list-style-type:none;
+
+}
+
+.linespaced {
+
+ line-height:140%;
+
+}
+
+.lickphoto:hover{
+
+	opacity:0.5;
+    
+}
+
+
+.footer {
+
+clear:both;
+text-align: center;
+font-size:8pt;
+
+}
+
+
+.mainheader {
+
+width:100%;
+text-align:left;
+
+}
+
+.leanmeatprice {
+
+	clear:both;
+	position:absolute;
+	right:10px;
+	bottom:10px;
+	float:right;
+ 
+}
+
+.menupng {
+
+	position:relative;
+	top:4px;
+}
+
+.menutitle {
+
+	font-family: arial;
+	font-weight:bold;
+	font-size:12pt;
+
+}
+
+.smallmenutitle {
+
+	font-size:11pt;
+	font-weight:bold;
+}
+
+.nutrition {
+
+	color:#A09A61;
+	font-style:italic;
+	font-size:8pt;
+}
+
+.smallnutrition {
+	font-style:italic;
+	font-size:6.5pt;
+}
+
+.clearfloats {
+
+	clear:both;
+
+}
+
+.menucontent {
+
+	clear:both;
+	line-height:140%;
+
+}
+
+#wrapper {
+	margin-top:1px;
+   	margin-left:auto;
+   	margin-right:auto;
+    width:860px;
+    
+}
+
+#nav {
+
+	background-color:#ffffcc;
+	border-radius:5px;
+	width:100%;
+	border:1pt solid grey;
+	margin-bottom:5px;
+	float:left;
+	text-align:left;
+
+}
+
+
+#header {
+	margin:0;
+	padding:0;
+	overflow:auto;
+	width:100%;
+	font-family:arial;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:black;
+	color:#000000;
+	padding-right:1.2em;
+	padding-left:1.2em;
+	border-top-right-radius:10pt;
+	border-top-left-radius:10pt;
+	min-height:100px;
+	box-shadow:5px 20px 20px 5px #888;
+	 -webkit-box-shadow:5px 20px 20px 5px #888;
+	 -moz-box-shadow:5px 20px 20px 5px #888;
+}
+
+#headermid {
+
+	color:white;
+	font-size:13pt;
+	line-height:120%;
+	float:right;
+	margin-top:0;
+	padding-right:10px;
+	width:670px;
+}
+	
+#banner {
+	position:relative;
+	top:20px;
+
+}	
+	
+#headerstrapleft {
+
+	margin-left:0;
+	margin-right:40px;
+	margin-top:0px;
+	margin-bottom:20px;
+	float:left;
+	text-align:center;
+	width:140px;
+}
+
+#toplogo {
+	 
+	height:120px; 
+	width:120px;
+    float:right;
+	margin-left:10px;
+    
+}
+
+#floatBox {
+
+	overflow:auto;
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	background-color:#fffff2;
+	color:#000000;
+	padding:1.2em;
+	border-bottom-right-radius:10pt;
+	border-bottom-left-radius:10pt;
+
+	box-shadow:5px 20px 20px 5px #888;
+	 -webkit-box-shadow:5px 20px 20px 5px #888;
+	 -moz-box-shadow:5px 20px 20px 5px #888;
+
+}
+
+#phone {
+
+	width:300px;
+	height:130px; 
+	position:absolute; 
+	top:190px; 
+	right:120px;
+
+}
+
+
+#mealdealbox {
+	
+	background:clear;
+	margin-left:20px;
+
+}
+
+#mealdealbanner {
+	
+	overflow:auto;
+	width:820px;
+	margin-right:auto;
+	margin-left:auto;
+	
+}
+
+#topmenu {
+
+	position:relative;
+	width:100%;
+	margin:auto;
+	color:#000000;
+}
+
+#leanmeat {
+
+	width:50%;
+	float:left;
+	background-color:#ffffcc;
+	height:630px; 
+}
+
+#mealdealprice {
+
+	clear:both;
+	position:absolute;
+	right:10px;
+	top:10px;
+	float:right;
+ 
+}
+
+#topprice {
+	
+	margin-right:20px;
+    float:right;
+    
+}
+
+#sidesandsauces {
+
+	background-color:white;
+	padding-right:0;
+	width:39%;
+	float:right;
+	height:634px;
+	border:3pt dashed #ff6633; 
+    
+}
+
+#sides {
+
+	width:45%;
+	float:left;
+	height:300px;
+}
+
+#lowcarb {
+
+	margin-right:0;
+	right:10px;
+	width:45%;
+	float:right;
+	min-height:230px;
+	border:2pt dashed #ff6633 ;
+	padding:6px;
+
+}
+
+#lowcarbhead {
+
+	margin-left:50px;
+	font-size:10pt;
+	font-weight:bold;
+	background-color:black;
+	border:4pt solid black;
+	border-radius:20px;
+	text-align:center;
+	line-height:100%;
+	
+}
+
+#middlemenu {
+
+	position:relative;
+	width:860px;
+	margin:auto;
+	color:#000000;
+
+}
+
+
+#burgers {
+
+	background-color:FFF4EC;
+	width:94%;
+	float:left;
+	height:350px;
+ 
+}
+
+#burgercontentleft {
+
+	width:240px;
+	float:left;
+	padding: 8px;
+}
+
+#burgercontentmiddle {
+
+	width:240px;
+	float:left;
+	padding: 8px;
+}
+
+#burgercontentright {
+
+	width:240px;
+	float:left;
+  	padding: 8px;
+}
+
+#wrapcontentleft {
+
+	width:40%;
+	float:left;
+ 
+}
+
+#wrapcontentright {
+
+	width:55%;
+	float:right;
+ 
+}
+
+
+#wraps {
+	background-color:#ffffcc;
+	width:60%;
+	float:right;
+	min-height:300px;
+ 
+}
+
+#drinksfield {
+	background-color:white;
+	width:350px;
+	float:right;
+	min-height:100px;
+ 
+}
+
+
+#drinks {
+	margin-left:20px;
+	font-size:12pt;
+	height:115px;
+	width:70%;
+	float:left;
+	font-weight:bold;
+ 
+}
+
+#veggie {
+	width:380px;
+	float:left;
+	background-color:#EBF5EB;
+	height:450px;
+	border: 6px solid #009933;
+	-moz-border-radius:10px;  
+			border-radius: 10px;  
+			-webkit-border-radius: 20px;
+}
+
+#veggielegend {
+
+	background-color: #009933;
+	border-top: 3px solid #009933;
+	border-bottom: 3px solid #009933;
+	border-left: 15px solid #009933;
+	border-right: 15px solid #009933;
+	-moz-border-radius:10px;  
+			border-radius:10px;  
+			-webkit-border-radius: 10px;
+
+}
+
+#skewers {
+
+	background-color:white;
+	width:26%;
+	float:left;
+	min-height:300px;
+}
+
+
+#lickfs {
+
+	float:right;
+	background-color:#000000;
+	width:350px;
+	border:0;
+}
+
+#licklegend{
+
+	background-color:black;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+	border-left: 15px solid black;
+	border-right: 15px solid black;
+	border-radius:10px;
+
+}
+
+#lickcontent {
+	
+	line-height:140%;
+	float:left;
+	color:white;
+	width:240px;
+ 
+}
+
+#termsAndInfo {
+
+	background:clear;
+	width:400px; 
+	height:250px;
+	float:left; 
+	margin:10px; 
+	font-family:arial; 
+	font-size:10pt;
+
+}
+
+#facebook {
+
+	background-color:blue;
+	width:100px;
+	height:100px;
+
+}	
+			
+
